@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SomosSaludIntegral</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #009688;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-ec9c4c96c9c6') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services, .about, .contact {
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .services h2, .about h2, .contact h2 {
+      color: #009688;
+      margin-bottom: 20px;
+    }
+
+    .service-item {
+      margin-bottom: 15px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      background-color: #009688;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #004d40;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SomosSaludIntegral</h1>
+    <nav>
+      <a href="#about">Nosotros</a>
+      <a href="#services">Servicios</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Tu bienestar, nuestra prioridad</h1>
+    <p>Atención integral para una vida más saludable</p>
+  </div>
+
+  <section id="about" class="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos un equipo de profesionales comprometidos con la salud física, mental y emocional de las personas. Nuestro enfoque es integral y personalizado.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Servicios</h2>
+    <div class="service-item">✔ Atención médica integral</div>
+    <div class="service-item">✔ Psicología y bienestar emocional</div>
+    <div class="service-item">✔ Nutrición y alimentación saludable</div>
+    <div class="service-item">✔ Actividad física adaptada</div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contacto</h2>
+    <form action="https://formsubmit.co/tusaludnacional@gmail.com" method="POST">
+      <label>Nombre</label>
+      <input type="text" name="nombre" required />
+      <label>Email</label>
+      <input type="email" name="email" required />
+      <label>Mensaje</label>
+      <textarea name="mensaje" rows="5" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 SomosSaludIntegral - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
